@@ -1,0 +1,24 @@
+#include <iostream>
+ 
+using namespace std;
+int main() {
+    string nome;
+    float a,at, l, c;
+    char r;
+    do{
+        cout << "Informe o comodo \n";
+        getline(cin,nome); 
+        cout << "Informe a Largura do comodo\n";
+        cin>>l;
+        cout << "Informe o Comprimento do comodo\n";
+        cin>>c;
+        a=l*c;
+        at=at+a;
+        cout << "A area desse comodo e: " << a << "m2" << endl;
+ 
+        cout << "Deseja calcular a area de mais comodos?\n";
+        cin>>r;
+    }while(r!='N');
+    cout << "A area total da casa e: " << at << "m2";    
+    return 0;
+}
