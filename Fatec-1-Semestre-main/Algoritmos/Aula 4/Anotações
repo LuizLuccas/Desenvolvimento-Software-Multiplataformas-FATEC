@@ -1,0 +1,34 @@
+  Laços de repetição C++ 
+
+
+Para/até 
+
+Faça/enquanto 
+
+Repita/até 
+ 
+
+Na própria estrutura já se declara a variável de controle, até quanto vai contar e se vai adicionar ou retirar. 
+Exemplo: 
+
+for(int i=1; i<= 10; i++){ 
+
+   Cout << I << Endl;  
+} 
+
+ 
+
+FOR = Estrutura do laço de repetição 
+
+INT = Tipo primitivo da variável 
+
+I = 1; = Declaração do valor/Conteúdo da variável local 
+
+I <= 10 = Limite ou condição para variável sair do loop 
+
+I ++ ou I = i + 1. = Equação que faz com que a variável avance e atualize seu valor 
+
+Endl = Pula uma linha, mesma função do \n 
+
+ 
+Como se lê: Para, variável = (tipo primitivo), (variável) recebe (valor), enquanto (variável) for (operadores lógicos e valor limite) faça... (variável) recebe (equação) 

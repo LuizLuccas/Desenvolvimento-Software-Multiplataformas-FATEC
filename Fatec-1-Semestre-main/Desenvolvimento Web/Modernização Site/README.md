@@ -1,0 +1,1 @@
+Recriei completamente uma página que estava desatualizada e pouco convidativa. Com uma combinação de design inteligente e conteúdo informativo, transformei uma experiência confusa em uma jornada simplificada e agradável.

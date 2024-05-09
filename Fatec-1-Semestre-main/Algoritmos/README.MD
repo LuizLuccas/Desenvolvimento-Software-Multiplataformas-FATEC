@@ -1,0 +1,1 @@
+Esta pasta é dedicada ao estudo de algoritmos em C++. Inclui exemplos, exercícios e projetos relacionados à lógica de programação e implementação de algoritmos. Cobrimos desde as estruturas fundamentais, como variáveis e estruturas de controle, até conceitos avançados como recursão e programação dinâmica. 

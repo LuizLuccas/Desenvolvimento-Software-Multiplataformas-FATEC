@@ -1,0 +1,17 @@
+
+OPERADORES RELACIONAIS (C + +)
+
+>	Maior que
+<	Menor que
+>=	Maior ou igual 
+<=	Menor ou Igual
+= =	Igual a
+!=	Diferente de
+
+Estrutua Condicional C + + (se)
+
+Sintaxe: If (condição) {              | Exemplo: If (Idade >= 16) {
+O que ira acontecer		      |	Cout << “Pode votar” ;
+}				      | }
+
+

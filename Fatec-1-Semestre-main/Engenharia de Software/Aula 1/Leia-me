@@ -1,0 +1,18 @@
+Na aula de Engenharia de Software, vimos modelos e conceitos que formam a base da disciplina. Exploramos o Modelo Cascata, uma abordagem sequencial
+que enfatiza a conclusão de cada etapa antes de avançar para a próxima. Isso proporciona uma estrutura clara para o desenvolvimento do software e facilita a gestão do projeto.
+
+Também discutimos o Modelo Incremental, que envolve o desenvolvimento progressivo do sistema, com entrega e validação contínua de partes do software. 
+Destacamos sua flexibilidade para adaptações e ajustes ao longo do processo de desenvolvimento.
+
+Outro modelo abordado foi o Modelo de Engenharia de Software Orientada a Reuso, que destaca a importância de reutilizar componentes em novos projetos para aumentar
+a eficiência e reduzir o tempo de desenvolvimento.
+
+Além dos modelos, exploramos outros conceitos-chave. Analisamos como a Prototipação pode ajudar a evitar conflitos e fornecer uma visão inicial do produto ao cliente, permitindo feedback precoce e refinamento.
+
+Identificamos também os Stakeholders, as partes interessadas envolvidas no projeto, e destacamos a importância de considerar suas necessidades e expectativas durante todo o processo de desenvolvimento.
+
+Discutimos a importância de definir requisitos claros para o sistema, incluindo Requisitos do Usuário (informais e formais) e Requisitos do Sistema, funcionais e não funcionais.
+
+Por fim, explicamos como os Casos de Uso descrevem as interações entre diferentes tipos de usuários e o sistema para alcançar objetivos específicos ou resolver problemas.
+
+Esses conceitos são fundamentais para compreender os processos e práticas na Engenharia de Software e são essenciais para o sucesso de qualquer projeto de desenvolvimento de software.

@@ -1,0 +1,153 @@
+  Laços de repetição C++ 
+
+ 
+Para/até 
+
+Faça/enquanto 
+
+Repita/até 
+
+ 
+
+Estrutura ENQUANTO:  
+
+A variável é declarada antes da estrutura (enquanto a condição for verdadeira faça...) 
+
+while(i <= 10 || i <= 11){ 
+   Cout << I; 
+} 
+
+ 
+
+while = Estrutura do laço de repetição 
+
+<= = operadores relacionais 
+
+10 = Limite de repetições 
+
+I = Varável de controle 
+
+|| = Operador lógico 
+
+ 
+
+Como se lê: Enquanto (variável) for (operador lógico) faça 
+
+ system("cls") = Limpa tela 
+
+ 
+
+
+Estrutura REPITA:  
+
+A variável é declarada antes da estrutura (repita até que a condição se torne verdadeira) 
+
+do{ 
+
+   Cout << I; 
+
+} while (i <= 10 || i <= 11); 
+
+ 
+
+do = Estrutura do laço de repetição 
+
+while = Estrutura final que propõe uma condição para encerrar o laço 
+
+<= = operadores relacionais 
+
+10 = Limite de repetições 
+
+I = Varável de controle 
+
+|| = Operador lógico 
+
+ 
+Como se lê: Repita (Conteúdo) enquanto (variável) seja (operador relacional) que/ao limite de repetições/condição verdadeira 
+
+system("cls"); = Limpa tela 
+
+
+Estrutura ESCOLHA: 
+
+É uma estrutura condicional baseada em uma sequência de condições que podem acontecer com determinados valores diferentes em uma variável.  
+
+ 
+switch(op){ 
+
+case 1: 
+
+   resultado = 10+20; 
+
+   cout <<resultado << endl; 
+
+   break; 
+
+case 2: 
+
+   resultado = 100-20; 
+
+   cout <<resultado << endl; 
+
+   break; 
+
+case 3: 
+
+   cout <<"Obrigado por usar meu sistema!"; 
+
+   break; 
+
+} 
+
+ 
+
+ 
+
+Switch = Estrutura condicional que escolhe a variável 
+
+case = Estrutura que faz os blocos contidos dentro do caso 
+
+<= = operadores relacionais 
+
+10 = Limite de repetições 
+
+I = Varável de controle 
+
+break = Finaliza o comando case 
+
+ 
+
+Como se lê: Escolha (variável). Caso 1,2,3...  faça (conteúdo)  
+
+ 
+Estrutura ESCOLHA utilizada em sequência: 
+
+switch(resp){ 
+
+        case 1: 
+
+        case 2: 
+
+        case 3: 
+
+        case 4: 
+
+        case 5: 
+
+            cout << "Muito Baixo"; 
+
+            break; 
+
+        case 6: 
+
+        case 8: 
+
+            cout <<"Muito perto!!"; 
+
+            break; 
+
+        default: (SE FOR OUTROS NUMEROS QUE NÃO FORAM ESPECIFICADOS) 
+
+            cout <<"Muito alto"; 
+
+} 
