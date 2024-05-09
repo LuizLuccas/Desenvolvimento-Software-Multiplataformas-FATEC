@@ -1,0 +1,104 @@
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.navbar-brand img {
+    max-width: 100px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler i {
+    font-size: 20px;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ccc !important;
+}
+
+#home {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.capa {
+    text-align: center;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item {
+    color: #333;
+}
+
+.map {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.map p {
+    background-color: #ccc;
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Certifique-se de que o z-index seja maior que o dos outros elementos na página */
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 5px 0; /* Reduzindo o padding vertical para deixar mais fino */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer .container {
+    display: flex; /* Alteração aqui: flexbox para alinhar os elementos */
+    justify-content: space-between; /* Alteração aqui: distribuição uniforme dos elementos */
+    align-items: center; /* Alteração aqui: centraliza verticalmente os elementos */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+

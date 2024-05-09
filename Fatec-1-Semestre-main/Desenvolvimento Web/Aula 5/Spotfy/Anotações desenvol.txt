@@ -1,0 +1,6 @@
+Design Digital
+
+Antes de iniciar a criação de uma página, fazer um rascunho de como será o site,
+ter todo um planejamento no papel ganha tempo no futuro e na criação do site em si.
+
+Após definir, ir no bootstrap e inicar a criação do site por meio de códigos la informados.
