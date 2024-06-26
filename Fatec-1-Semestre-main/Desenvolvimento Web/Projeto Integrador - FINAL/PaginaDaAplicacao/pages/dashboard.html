@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      rel="shortcut icon"
+      href="../assets/img/logo-icon.svg"
+      type="image/x-icon"
+    />
+    <title>e-DUK - Home</title>
+  </head>
+  <body>
+    <section class="modalContainer hidden">
+      <div class="modalBody">
+        <div class="modalHeader">
+          <p>Envio de SMS</p>
+          <button id="closeModal">X</button>
+        </div>
+        <div class="modalMain">
+          <form action="">
+            <input
+              class="eventInput"
+              type="number"
+              placeholder="Numero do celular"
+            />
+            <textarea
+              placeholder="Escreva aqui a mensagem..."
+              name=""
+              id=""
+            ></textarea>
+            <button>ENVIAR SMS</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <header>
+      <nav class="container">
+        <img src="../assets/img/logo.svg" alt="" class="logo" />
+        <div class="search">
+          <button id="hamburguerMenu" class="button header__button">
+            <img src="../assets/icons/bars-solid.svg" alt="iconeMenu" />
+          </button>
+          <button id="logout" class="button header__button">
+            <img src="../assets/icons/logoutIcon.svg" alt="logoutIcon" />
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <aside class="menu__hidden" id="leftMenu">
+        <div class="container__menuItems">
+          <h2>MENU</h2>
+          <div class="menuItem">
+            <p>
+              <img
+                src="../assets/icons/eye-solid.svg"
+                alt="eye icon"
+              />Visualizar Classes
+            </p>
+            <div>
+              <a href="">1a Série EM</a>
+              <a href="">2a Série EM</a>
+              <a href="">3a Série EM</a>
+            </div>
+          </div>
+
+          <div class="menuItem">
+            <p>
+              <img src="../assets/icons/folder-solid.svg" alt="" />Documentos
+            </p>
+            <div>
+              <a href="">Emissão de Certidões</a>
+              <a href="">Históricos</a>
+              <a href="">Certificados</a>
+              <a href="">Transferências</a>
+            </div>
+          </div>
+
+          <div class="menuItem">
+            <p>
+              <img src="../assets/icons/id-card-solid.svg" alt="" />Cadastros
+            </p>
+            <div>
+              <a href="">Matrícula de Aluno</a>
+              <a href="">Professor Substituto</a>
+              <a href="">Disciplinas</a>
+            </div>
+          </div>
+
+          <div class="menuItem">
+            <p>
+              <img src="../assets/icons/sms-solid.svg" alt="" />Comunicação SMS
+            </p>
+            <div>
+              <a id="sendSMS">Enviar SMS</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <section id="appItems">
+        <section class="applicationBox">
+          <div class="userResume">
+            <div>
+              <img src="../assets/img/image0.jpg" alt="" id="userImg" />
+            </div>
+            <div class="userInfos">
+              <p>Olá, Sr. Skywalker!</p>
+              <p>Cargo: Secretário</p>
+              <p>Matrícula: 1136</p>
+            </div>
+          </div>
+          <div class="menu__buttons user__buttons">
+            <button class="button">
+              <img
+                src="../assets/icons/graduation-cap-solid.svg"
+                alt=""
+              />Editar Dados
+            </button>
+            <button class="button">
+              <img src="../assets/icons/info-circle.svg" alt="" />Informações
+            </button>
+          </div>
+        </section>
+
+        <section>
+          <section class="applicationBox calendarBox">
+            <p class="calendarTitle">CALENDÁRIO DE EVENTOS</p>
+            <h3 id="monthAndYear"></h3>
+            <div class="calendarButtons">
+              <button id="previous"><</button>
+              <button id="next">></button>
+            </div>
+            <table id="calendar" class="calendarHead">
+              <thead id="theadMonth"></thead>
+              <tbody id="calendarBody"></tbody>
+            </table>
+            <div class="footer-container-calendar">
+              <label for="month">Ir para: </label>
+              <select id="month">
+                <option value="0">Jan</option>
+                <option value="1">Fev</option>
+                <option value="2">Mar</option>
+                <option value="3">Abr</option>
+                <option value="4">Mai</option>
+                <option value="5">Jun</option>
+                <option value="6">Jul</option>
+                <option value="7">Ago</option>
+                <option value="8">Set</option>
+                <option value="9">Out</option>
+                <option value="10">Nov</option>
+                <option value="11">Dez</option>
+              </select>
+              <select id="year"></select>
+            </div>
+            <div>
+              <form>
+                <input class="eventInput" type="date" id="eventDate" />
+                <input
+                  class="eventInput"
+                  type="text"
+                  placeholder="Título do Evento"
+                  id="eventTitle"
+                />
+                <input
+                  class="eventInput"
+                  type="text"
+                  placeholder="Descrição do evento / horário"
+                  id="eventDescription"
+                />
+                <button id="addEvent">Adicionar Evento</button>
+              </form>
+              <div id="eventsSection">
+                <h2 class="calendarTitle">EVENTOS CADASTRADOS</h2>
+                <ul id="eventsList"></ul>
+              </div>
+            </div>
+          </section>
+
+          <div id="chartAndStudents">
+            <section class="applicationBox chartBox">
+              <p class="calendarTitle">N. DE ALUNO POR TURMA</p>
+              <div class="chartContainer">
+                <canvas id="chart"> </canvas>
+              </div>
+            </section>
+            <section class="applicationBox">
+              <p class="calendarTitle">AUNOS MATRICULADOS</p>
+              <div class="studentsContainer">
+                <input
+                  class="eventInput"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Pesquisar Alunos"
+                />
+                <ul id="studentsList">
+                  <li>Gabriel Mesquita</li>
+                  <li>Iza Souza</li>
+                  <li>Bruno Bichoff</li>
+                  <li>Luiz Henqique</li>
+                  <li>Manuel Portugal</li>
+                  <li>Leandro Ribeiro</li>
+                  <li>Juliano Santos</li>
+                  <li>Maria Ana</li>
+                  <li>José Santos</li>
+                  <li>Rian Scavazza</li>
+                  <li>André Reis</li>
+                  <li>Marília Aleixo</li>
+                  <li>André Reis</li>
+                  <li>Zezinho Abreu</li>
+                  <li>Roberta Miranda</li>
+                  <li>Nando Reis</li>
+                  <li>Maryara de Maraísa</li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div class="logos">
+        <img src="../assets/icons/facebook.svg" alt="" />
+        <img src="../assets/icons/instagram.svg" alt="" />
+        <img src="../assets/icons/twitter.svg" alt="" />
+        <img src="../assets/icons/whatsapp.svg" alt="" />
+        <a
+          href="https://github.com/DSM-Grupo-06-Projeto-Integrador-2024/dsm-grupo-6-pi"
+        >
+          <img src="../assets/icons/github.svg" alt="github icon" />
+        </a>
+      </div>
+      <div class="appInfos">
+        <small>Versão 1.0.0</small>
+        <small>Atualizado em 18/07/24</small>
+      </div>
+      <div>
+        <small>Made with &#10084 by FATEC-ARARAS 2024</small>
+      </div>
+    </footer>
+  </body>
+  <script type="module" src="../scripts/application.js"></script>
+  <script type="module" src="../scripts/calendar.js"></script>
+  <script type="module" src="../scripts/charts.js"></script>
+</html>

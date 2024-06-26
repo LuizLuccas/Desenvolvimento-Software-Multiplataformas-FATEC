@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/container.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo-icon.svg"
+      type="image/x-icon"
+    />
+    <title>e-DUK - Login</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <img src="./assets/img/logo.svg" alt="" class="logo" />
+      </nav>
+    </header>
+
+    <main class="container">
+      <section>
+        <div class="divLoginDescription">
+          <p>
+            e-DUK gestão escolar com <span>excelência</span>!<br /><br />
+            Sistema Escolar com eficiência e transparência para pais e
+            responsável. Sempre ligado com nossa escola!
+          </p>
+        </div>
+        <div class="formContainer">
+          <form>
+            <h1>LOGIN</h1>
+            <div class="inputForm">
+              <label for="user">Usuário</label>
+              <input id="user" type="text" placeholder="usuario@dominio.com" />
+            </div>
+            <div class="inputForm">
+              <label for="password">Senha</label>
+              <input id="password" type="text" placeholder="Insira a senha" />
+            </div>
+            <div class="inputCheck">
+              <input type="checkbox" />
+              <label>Lembrar Login</label>
+            </div>
+            <button type="submit" id="loginButton">Entrar</button>
+          </form>
+          <div class="loginFooter">
+            <small>Não tem conta?</small>
+            <div>
+              <small><a href="">Clique aqui </a> para se cadastrar.</small>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="logos">
+        <img src="./assets/icons/facebook.svg" alt="" />
+        <img src="./assets/icons/instagram.svg" alt="" />
+        <img src="./assets/icons/twitter.svg" alt="" />
+        <img src="./assets/icons/whatsapp.svg" alt="" />
+        <a
+          href="https://github.com/DSM-Grupo-06-Projeto-Integrador-2024/dsm-grupo-6-pi"
+        >
+          <img src="./assets/icons/github.svg" alt="github icon" />
+        </a>
+      </div>
+      <div class="appInfos">
+        <small>Versão 1.0.0</small>
+        <small>Atualizado em 14/07/24</small>
+      </div>
+      <div>
+        <small>Made with by FATEC-ARARAS 2024</small>
+      </div>
+    </footer>
+    <script src="./scripts/login.js"></script>
+  </body>
+</html>

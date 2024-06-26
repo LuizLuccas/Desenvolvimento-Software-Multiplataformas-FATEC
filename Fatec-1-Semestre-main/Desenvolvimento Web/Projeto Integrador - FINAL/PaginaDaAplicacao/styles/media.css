@@ -1,0 +1,89 @@
+@media (min-width: 640px) {
+  nav {
+    flex-direction: row;
+  }
+
+  .search {
+    /* flex-direction: row-reverse; */
+    justify-content: end;
+  }
+
+  #appItems > :first-child {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: fit-content;
+  }
+
+  .userResume {
+    max-width: 50%;
+  }
+
+  .user__buttons {
+    max-width: 20rem;
+    padding: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .menu__hidden {
+    margin-left: 0%;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    gap: 32px;
+  }
+
+  aside {
+    width: 20rem;
+    padding-right: 0;
+  }
+
+  #appItems {
+    width: 100%;
+  }
+
+  aside {
+    z-index: 0;
+    position: relative;
+    box-shadow: none;
+    margin-top: 16px;
+    border-radius: 16px;
+  }
+
+  #appItems > :first-child {
+    width: 100%;
+  }
+
+  #appItems > :nth-child(2) {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+    flex-wrap: nowrap;
+  }
+
+  .calendarBox,
+  #chartAndStudents {
+    max-width: 50%;
+  }
+
+  .chartBox {
+    height: 400px;
+  }
+
+  .chartContainer {
+    height: 85%;
+  }
+
+  #hamburguerMenu,
+  #closeMenuButton {
+    display: none;
+  }
+
+  .modalBody {
+    max-width: 40%;
+  }
+}
