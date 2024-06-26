@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consultas</title>
+</head>
+<body>
+    <img src="consulta.jpg" alt="Consultório Odontológico"
+    class="alta" width="350px">
+    <h1>Paciente em Espera:</h1>
+    <p>Paciente:
+        <input type="text" id="inPaciente" autofocus>
+        <input type="button" value="Adicionar" id="btAdicionar">
+        <input type="button" value="Urgência" id="btUrgencia">
+        <input type="button" value="Atender" id="btAtender">
+    </p>
+    <h3>Em Atendimento: <span id="outAtendimento" class="fonteazul"></span>
+    </h3>
+    <pre id="outLista"></pre>
+
+    <h3>Último(s) Chamados(s): </h3>
+    <pre id="outChamado"></pre>
+    <script src="js/consulta.js"></script>
+</body>
+</html>
