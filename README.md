@@ -1,1 +1,1 @@
-Realizava manutenção de equipamentos eletrônicos garantindo seu funcionamento ideal, além de realizar serviços gerais. Como parte de uma equipe colaborativa, também acompanhei eletricistas em projetos específicos. Minha atuação estendeu-se ao manejo de sistemas internos e bancos de dados, contribuindo diretamente para a eficiência e integridade das operações da empresa
+
